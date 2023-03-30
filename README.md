@@ -1,30 +1,37 @@
 # imaginary-food
 
 ## Description
-​As a USER I would like a Notes application
-So That I can make quick reminders of things I need to-do, thoughts, and/or ideas
+​As a USER I would like an e-commerce application
+So That I can update my stock easily
 
 ## Tasks
 ​
--
--
--
--
+- GIVEN a functional Express.js API
+- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file 
+- THEN I am able to connect to a database using Sequelize 
+- WHEN I enter schema and seed commands
+- THEN a development database is created and is seeded with test data
+- WHEN I enter the command to invoke the application
+- THEN my server is started and the Sequelize models are synced to the MySQL database
+- WHEN I open API GET routes in Insomnia for categories, products, or tags
+- THEN I am able to successfully create, update, and delete data in my database
 
 ​
 ## Usage
 
-​![Alt text]
+​![mysql run through](./Assets/mysqlScreenshot.png)
+![seeding the data](./Assets/Screenshot%202023-03-30%20at%204.41.40%20PM.png)
+![running in insomnia](./Assets/insomniaScreenshot.png)
 
 ## Links
-- Deployed Webpage: 
-- GitHub Repo Page: 
-- Castify Video Demo: 
+- Deployed Webpage: N/A
+- GitHub Repo Page: https://github.com/CarlyGallagher/imaginary-food.git
+- Castify Video Demo: https://drive.google.com/file/d/11ChrGgk26bdV8czfy2XUMlehPvvl5Nep/view
 ​
 ## Credits
 ​
-- 
-- 
+- https://dev.to/kmcknight91/how-to-use-insomnia-to-test-api-endpoints-1lad
+- https://www.shopify.com/blog/ecommerce-app
 ​
 ## License
 ​
